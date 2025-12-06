@@ -1,0 +1,5 @@
+[06-Dec-2025 16:03:02 Asia/Ho_Chi_Minh] PHP Warning:  Undefined variable $db in D:\xampp\htdocs\TienDat123\TMDT_LAPTOP\laptop-store\index.php on line 14
+[06-Dec-2025 16:03:02 Asia/Ho_Chi_Minh] PHP Fatal error:  Uncaught Error: Call to a member function select() on null in D:\xampp\htdocs\TienDat123\TMDT_LAPTOP\laptop-store\index.php:14
+Stack trace:
+#0 {main}
+  thrown in D:\xampp\htdocs\TienDat123\TMDT_LAPTOP\laptop-store\index.php on line 14

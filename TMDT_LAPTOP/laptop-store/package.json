@@ -1,0 +1,14 @@
+{
+  "name": "laptop-store-skeleton-generator",
+  "version": "1.0.0",
+  "description": "Script tạo cấu trúc thư mục cho dự án laptop-store (PHP)",
+  "main": "create-structure.js",
+  "scripts": {
+    "start": "node create-structure.js"
+  },
+  "author": "",
+  "license": "MIT",
+  "engines": {
+    "node": ">=12"
+  }
+}
