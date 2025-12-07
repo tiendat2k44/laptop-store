@@ -1,0 +1,10 @@
+{
+  "name": "laptop-store-skeleton",
+  "version": "1.0.0",
+  "description": "Generated skeleton for laptop-store (PHP) by create-structure.js",
+  "scripts": {
+    "create-structure": "node create-structure.js"
+  },
+  "author": "",
+  "license": "MIT"
+}
