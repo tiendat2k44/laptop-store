@@ -32,7 +32,7 @@ if (!isset($cartProcessor) || !is_object($cartProcessor) || !method_exists($cart
         public function getCartCount(): int {
             if (session_status() === PHP_SESSION_NONE) session_start();
             if (!empty($_SESSION['cart']) && is_array($_SESSION['cart'])) {
-                return array_sum(array_map(fn($it) => (int)($it['quantity'] ?? $it), $_SESSION['cart']));
+                return array_sum(array_map(fn($it) => (int)($it['quantity'] ?? 0), $_SESSION['cart']));
             }
             return 0;
         }
